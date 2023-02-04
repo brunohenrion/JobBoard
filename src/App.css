@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+.App {
+  font-family: "Roboto";
+}
+header {
+  background-color: #333333;
+  height: 100px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 27px 589px 26px 588px;
+}
+
+.jobs {
+  height: 1400px;
+  padding: 62px 160px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+section {
+  border: red solid 1px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  padding: 18px 17px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section div {
+  flex-direction: column;
+}
+
+.job1,
+.job6 {
+  border: #e30413 solid 10px;
+}
+
+.job2,
+.job7 {
+  border: #3ea535 solid 10px;
+}
+
+.job3,
+.job8 {
+  border: #ffee00 solid 10px;
+}
+
+.job4,
+.job9 {
+  border: #039fe3 solid 10px;
+}
+
+.job5 {
+  border: #f8c5af solid 10px;
+}
+
+span {
+  font-weight: bolder;
+}
+
+footer {
+  padding: 20px 535.5px;
+  background-color: #dddddd;
+  font-size: 18px;
+}
